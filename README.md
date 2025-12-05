@@ -1,5 +1,7 @@
 # Medical RAG System - Streamlit Application
 
+🔗 **GitHub Repository**: [https://github.com/Saifullahkhan20/medicaldignostic](https://github.com/Saifullahkhan20/medicaldignostic)
+
 ## Overview
 
 This is a Retrieval-Augmented Generation (RAG) system for clinical diagnostic reasoning using the MIMIC-IV-Ext Direct dataset. The system combines dense (FAISS) and sparse (BM25) retrieval with a generative LLM to provide diagnostic assessments.
