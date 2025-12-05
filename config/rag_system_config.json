@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "model": {
+    "config": "models/model/model_config.json",
+    "tokenizer": "models/model/Tokenizer",
+    "model": null,
+    "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  },
+  "indices": {
+    "faiss": "indices/dense_index.faiss",
+    "bm25": "indices/bm25_index.pkl",
+    "embedder_config": "indices/embedder_config.json",
+    "corpus": "indices/corpus_texts.json",
+    "documents": "indices/documents_metadata.json",
+    "stats": "indices/index_stats.json"
+  },
+  "retrieval_params": {
+    "k": 5,
+    "alpha": 0.7
+  },
+  "generation_params": {
+    "max_new_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1
+  }
+}

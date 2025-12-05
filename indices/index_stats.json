@@ -1,0 +1,6 @@
+{
+  "total_documents": 115,
+  "faiss_vectors": 115,
+  "bm25_documents": 115,
+  "embedding_dimension": 384
+}
